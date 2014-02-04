@@ -15,7 +15,7 @@
 #import "ChromecastDeviceController.h"
 #import "SimpleImageFetcher.h"
 
-static NSString *const kReceiverAppID = @"YOUR_APP_ID_HERE";  //Replace with your app id
+static NSString *const kReceiverAppID = @"0482E47D";  //Replace with your app id
 
 @interface ChromecastDeviceController () {
   ChromecastControllerFeatures _features;

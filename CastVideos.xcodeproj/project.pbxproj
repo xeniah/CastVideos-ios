@@ -96,7 +96,7 @@
 		4945BD8A1851041900619BF8 /* play_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4945BD821851041900619BF8 /* play_light@2x.png */; };
 		496D46FE182DBE9100343F72 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 496D46FD182DBE9100343F72 /* Media.m */; };
 		496D4701182DBE9C00343F72 /* MediaListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 496D4700182DBE9C00343F72 /* MediaListModel.m */; };
-		CC07763E18907CC300577499 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC07763D18907CC300577499 /* GoogleCast.framework */; };
+		A911888218A0A917004C8687 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A911888118A0A917004C8687 /* GoogleCast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,7 +212,7 @@
 		496D46FD182DBE9100343F72 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
 		496D46FF182DBE9C00343F72 /* MediaListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaListModel.h; sourceTree = "<group>"; };
 		496D4700182DBE9C00343F72 /* MediaListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaListModel.m; sourceTree = "<group>"; };
-		CC07763D18907CC300577499 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = ../GoogleCast.framework; sourceTree = "<group>"; };
+		A911888118A0A917004C8687 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleCast.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,10 +220,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC07763E18907CC300577499 /* GoogleCast.framework in Frameworks */,
 				12E0CCBD18511D8400447896 /* AVFoundation.framework in Frameworks */,
 				284CBD88182ADC2D007F65F9 /* CoreGraphics.framework in Frameworks */,
 				284CBD8A182ADC2D007F65F9 /* UIKit.framework in Frameworks */,
+				A911888218A0A917004C8687 /* GoogleCast.framework in Frameworks */,
 				284CBD86182ADC2D007F65F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +264,7 @@
 		284CBD84182ADC2D007F65F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC07763D18907CC300577499 /* GoogleCast.framework */,
+				A911888118A0A917004C8687 /* GoogleCast.framework */,
 				12E0CCBB184FFD9B00447896 /* AVFoundation.framework */,
 				284CBD85182ADC2D007F65F9 /* Foundation.framework */,
 				284CBD87182ADC2D007F65F9 /* CoreGraphics.framework */,
@@ -720,6 +720,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					..,
+					"/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/CastVideos-ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/CastVideos-Prefix.pch";
@@ -744,6 +745,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					..,
+					"/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/CastVideos-ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/CastVideos-Prefix.pch";
